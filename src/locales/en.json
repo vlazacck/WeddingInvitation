@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Bethelhem & Ermias — A Sacred Union",
+    "description": "Join Bethelhem and Ermias as they are joined in Christ. Wedding celebration invitation with schedule, location, and RSVP."
+  },
+  "header": {
+    "brand": "B & E"
+  },
+  "langToggle": {
+    "en": "EN",
+    "am": "አማ"
+  },
+  "envelope": {
+    "monogram": "B & E",
+    "tapToOpen": "Tap to open"
+  },
+  "hero": {
+    "eyebrow": "Wedding Day",
+    "date": "07/11/26",
+    "names": "Bethelhem\n&\nErmias",
+    "scrollDown": "Scroll down",
+    "verse": "\u201cTherefore what God has joined together, let no one separate.\u201d — Mark 10:9"
+  },
+  "welcome": {
+    "titleLine1": "Two Souls",
+    "titleLine2": "One Covenant",
+    "titleLine3": "A Union Written by God",
+    "greeting": "Dear Friends and Family",
+    "body": "Join us for an evening of love, praise, and unforgettable memories as we begin our forever, bound together in the grace of Christ.",
+    "verseRef": "1 Corinthians 13:4-7",
+    "verseText": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It always protects, always trusts, always hopes, always perseveres."
+  },
+  "countdown": {
+    "title": "The Celebration Begins In",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "date": "Sunday, November 07/2026"
+  },
+  "schedule": {
+    "title": "Schedule of Events",
+    "items": [
+      { "time": "4 PM", "label": "Guest Arrival" },
+      { "time": "5 PM", "label": "Wedding Ceremony" },
+      { "time": "6 PM", "label": "Cocktail Hour" },
+      { "time": "7 PM", "label": "Dinner" },
+      { "time": "8 PM", "label": "Worship" }
+    ]
+  },
+  "location": {
+    "title": "Location",
+    "venueName": "Kotebe Muluwengel",
+    "address": "Kotebe Muluwengel",
+    "openInMaps": "Open in Maps"
+  },
+  "telegram": {
+    "title": "Send Us Your Photos!",
+    "request": "We would love to see our wedding through your eyes! Please send us your pictures and videos from the celebration through our dedicated Telegram bot.",
+    "button": "@betyermibot"
+  },
+  "rsvp": {
+    "sealLabel": "RSVP",
+    "clickToOpen": "Click to open",
+    "farewell": "Hope to see you there!",
+    "coupleNames": "Bethelhem and Ermias",
+    "formTitle": "Will you join us?",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Your full name",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "attendingLabel": "Will you attend?",
+    "attendingYes": "Joyfully accepts",
+    "attendingNo": "Regretfully declines",
+    "guestsLabel": "Number of guests",
+    "messageLabel": "Message for the couple",
+    "messagePlaceholder": "Leave a blessing or well-wish",
+    "submit": "Send RSVP",
+    "submitting": "Sending...",
+    "success": "Thank you! Your RSVP has been received.",
+    "error": "Something went wrong. Please try again.",
+    "requiredField": "This field is required",
+    "invalidEmail": "Please enter a valid email address"
+  },
+  "footer": {
+    "verse": "\u201cAnd over all these virtues put on love, which binds them all together in perfect unity.\u201d — Colossians 3:14",
+    "contactTitle": "Questions?",
+    "contactEmail": "bethelhem.ermias.wedding@example.com",
+    "copyright": "© 2026 Bethelhem & Ermias.",
+    "social": "Follow our journey"
+  }
+}

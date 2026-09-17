@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "title": "ቤተልሔም እና ኤርምያስ — የተቀደሰ ውህደት",
+    "description": "ቤተልሔም እና ኤርምያስ በክርስቶስ አንድ ሆነው የሚቀላቀሉበትን በዓል ይቀላቀሉ። የሰርግ ግብዣ ፕሮግራም፣ ቦታ እና የመገኘት ማረጋገጫ ያካትታል።"
+  },
+  "header": {
+    "brand": "ቤ & ኤ"
+  },
+  "langToggle": {
+    "en": "EN",
+    "am": "አማ"
+  },
+  "envelope": {
+    "monogram": "ቤ & ኤ",
+    "tapToOpen": "ለመክፈት ይንኩ"
+  },
+  "hero": {
+    "eyebrow": "የሰርግ ቀን",
+    "date": "28/02/19",
+    "names": "ቤተልሔም\nእና\nኤርምያስ",
+    "scrollDown": "ወደ ታች ይውረዱ",
+    "verse": "«እግዚአብሔር ያጣመረውን ሰው አይለያየው።» — ማርቆስ 10፥9"
+  },
+  "welcome": {
+    "titleLine1": "ሁለት ነፍሶች",
+    "titleLine2": "አንድ ቃል ኪዳን",
+    "titleLine3": "በእግዚአብሔር የተጻፈ ውህደት",
+    "greeting": "ውድ ወዳጆቻችን እና ቤተሰቦች",
+    "body": "በክርስቶስ ጸጋ ተሳስረን ዘላለማዊ ጉዟችንን ስንጀምር በፍቅር፣ በምስጋና እና በማይረሱ ትዝታዎች የሚሞላውን ምሽታችን ይቀላቀሉን።",
+    "verseRef": "1 ቆሮንቶስ 13፥4-7",
+    "verseText": "ፍቅር ይታገሣል፣ ቸርነትንም ያደርጋል፤ ፍቅር አይቀናም፤ ፍቅር አይመካም፤ አይታበይም፤ ሁሉን ይታገሣል፣ ሁሉን ያምናል፣ ሁሉን ተስፋ ያደርጋል፣ በሁሉ ይጸናል።"
+  },
+  "countdown": {
+    "title": "ሰርጉ የሚጀምረው በ",
+    "days": "ቀናት",
+    "hours": "ሰዓታት",
+    "minutes": "ደቂቃዎች",
+    "seconds": "ሰከንዶች",
+    "date": "እሁድ ፣ ጥቅምት 28/2019"
+  },
+  "schedule": {
+    "title": "የፕሮግራም ዝርዝር",
+    "items": [
+      { "time": "10 ሰዓት ", "label": "የእንግዶች መድረሻ" },
+      { "time": "11 ሰዓት ", "label": "የሰርግ ሥነ ሥርዓት" },
+      { "time": "12 ሰዓት ", "label": "የኮክቴል ሰዓት" },
+      { "time": "1 ሰዓት ", "label": "እራት" },
+      { "time": "2 ሰዓት ", "label": "አምልኮ" }
+    ]
+  },
+  "location": {
+    "title": "ቦታ",
+    "venueName": "Kotebe Muluwengel",
+    "address": "Kotebe Muluwengel",
+    "openInMaps": "በካርታ ላይ ይክፈቱ"
+
+  },
+  "telegram": {
+    "title": "ፎቶዎችዎን ይላኩልን!",
+    "request": "ሰርጋችንን በእናንተ አይን ማየት እንወዳለን! እባክዎ ስለ ሠርጉ ላይ ያነሳቹኋቸውን ፎቶዎች እና ቪዲዮዎች በቴሌግራም ቦት ይላኩልን።",
+    "button": "@betyermibot"
+  },
+  "rsvp": {
+    "sealLabel": "የመገኘት ማረጋገጫ",
+    "clickToOpen": "ለመክፈት ይጫኑ",
+    "farewell": "እዚያ እናያችኋለን ብለን ተስፋ እናደርጋለን!",
+    "coupleNames": "ቤተልሔም እና ኤርምያስ",
+    "formTitle": "ይቀላቀሉናል?",
+    "nameLabel": "ሙሉ ስም",
+    "namePlaceholder": "ሙሉ ስምዎን ያስገቡ",
+    "emailLabel": "የኢሜይል አድራሻ",
+    "emailPlaceholder": "you@example.com",
+    "attendingLabel": "ይገኛሉ?",
+    "attendingYes": "በደስታ እቀበላለሁ",
+    "attendingNo": "በአክብሮት አልችልም",
+    "guestsLabel": "የእንግዶች ብዛት",
+    "messageLabel": "ለጥንዶቹ መልእክት",
+    "messagePlaceholder": "በረከት ወይም መልካም ምኞት ይተዉ",
+    "submit": "ማረጋገጫ ላክ",
+    "submitting": "በመላክ ላይ...",
+    "success": "እናመሰግናለን! ማረጋገጫዎ ደርሶናል።",
+    "error": "የሆነ ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ።",
+    "requiredField": "ይህ መስክ ያስፈልጋል",
+    "invalidEmail": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ"
+  },
+  "footer": {
+    "verse": "«ከሁሉም በላይ ፍጹም የሚያስተሳስር ፍቅርን ልበሱ።» — ቆላስይስ 3፥14",
+    "contactTitle": "ጥያቄ አለዎት?",
+    "contactEmail": "bethelhem.ermias.wedding@example.com",
+    "copyright": "© 2026 ቤተልሔም እና ኤርምያስ።",
+    "social": "ጉዟችንን ይከታተሉ"
+  }
+}

@@ -42,10 +42,11 @@
     "title": "Schedule of Events",
     "items": [
       { "time": "4 PM", "label": "Guest Arrival" },
-      { "time": "5 PM", "label": "Wedding Ceremony" },
-      { "time": "6 PM", "label": "Cocktail Hour" },
-      { "time": "7 PM", "label": "Dinner" },
+      { "time": "5 PM", "label": "The Sermon" },
+      { "time": "6 PM", "label": "Wedding Ceremony"},
+      { "time": "7 PM", "label": "Cake Cutting"},
       { "time": "8 PM", "label": "Worship" }
+
     ]
   },
   "location": {
@@ -67,8 +68,8 @@
     "formTitle": "Will you join us?",
     "nameLabel": "Full name",
     "namePlaceholder": "Your full name",
-    "emailLabel": "Email address",
-    "emailPlaceholder": "you@example.com",
+    "phoneLabel": "Phone number",
+    "phonePlaceholder": "09XXXXXXXX",
     "attendingLabel": "Will you attend?",
     "attendingYes": "Joyfully accepts",
     "attendingNo": "Regretfully declines",
@@ -80,7 +81,7 @@
     "success": "Thank you! Your RSVP has been received.",
     "error": "Something went wrong. Please try again.",
     "requiredField": "This field is required",
-    "invalidEmail": "Please enter a valid email address"
+    "invalidPhone": "Please enter a valid phone number"
   },
   "footer": {
     "verse": "\u201cAnd over all these virtues put on love, which binds them all together in perfect unity.\u201d — Colossians 3:14",

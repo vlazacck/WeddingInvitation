@@ -42,9 +42,9 @@
     "title": "የፕሮግራም ዝርዝር",
     "items": [
       { "time": "10 ሰዓት ", "label": "የእንግዶች መድረሻ" },
-      { "time": "11 ሰዓት ", "label": "የሰርግ ሥነ ሥርዓት" },
-      { "time": "12 ሰዓት ", "label": "የኮክቴል ሰዓት" },
-      { "time": "1 ሰዓት ", "label": "እራት" },
+      { "time": "11 ሰዓት ", "label": "የቃል ጊዜ" },
+      { "time": "12 ሰዓት ", "label": "የሰርግ ሥነሥርዓት" },
+      { "time": "1 ሰዓት ", "label": "የኬክ  ሰዓት" },
       { "time": "2 ሰዓት ", "label": "አምልኮ" }
     ]
   },
@@ -68,8 +68,8 @@
     "formTitle": "ይቀላቀሉናል?",
     "nameLabel": "ሙሉ ስም",
     "namePlaceholder": "ሙሉ ስምዎን ያስገቡ",
-    "emailLabel": "የኢሜይል አድራሻ",
-    "emailPlaceholder": "you@example.com",
+    "phoneLabel": "የስልክ ቁጥር",
+    "phonePlaceholder": " 09XXXXXXXX",
     "attendingLabel": "ይገኛሉ?",
     "attendingYes": "በደስታ እቀበላለሁ",
     "attendingNo": "በአክብሮት አልችልም",
@@ -81,7 +81,7 @@
     "success": "እናመሰግናለን! ማረጋገጫዎ ደርሶናል።",
     "error": "የሆነ ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ።",
     "requiredField": "ይህ መስክ ያስፈልጋል",
-    "invalidEmail": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ"
+    "invalidPhone": "እባክዎ ትክክለኛ የስልክ ቁጥር ያስገቡ"
   },
   "footer": {
     "verse": "«ከሁሉም በላይ ፍጹም የሚያስተሳስር ፍቅርን ልበሱ።» — ቆላስይስ 3፥14",
@@ -91,3 +91,4 @@
     "social": "ጉዟችንን ይከታተሉ"
   }
 }
+ 

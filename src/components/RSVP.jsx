@@ -6,7 +6,7 @@ import TornEdge from './TornEdge.jsx';
 // ⚠️ PASTE YOUR GOOGLE APPS SCRIPT WEB APP URL HERE:
 const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwVN0239xZSmz82le6QyFmGkCD-ZDOpzwN5hyElflFgO01aWYD2TM0egJyJSNrdupBE/exec';
 
-const initialForm = { name: '', email: '', attending: 'yes', guests: 1, message: '', website: '' };
+const initialForm = { name: '', phone: '', attending: 'yes', guests: 1, message: '', website: '' };
 
 export default function RSVP() {
   const { t } = useTranslation();
@@ -18,10 +18,10 @@ export default function RSVP() {
   const validate = () => {
     const next = {};
     if (!form.name.trim()) next.name = t('rsvp.requiredField', 'Required');
-    if (!form.email.trim()) {
-      next.email = t('rsvp.requiredField', 'Required');
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
-      next.email = t('rsvp.invalidEmail', 'Invalid email');
+    if (!form.phone.trim()) {
+      next.phone = t('rsvp.requiredField', 'Required');
+    } else if (!/^[+()\d\s-]{7,}$/.test(form.phone.trim())) {
+      next.phone = t('rsvp.invalidPhone', 'Please enter a valid phone number');
     }
     return next;
   };
@@ -188,21 +188,23 @@ export default function RSVP() {
                     </div>
 
                     <div>
-                      <label htmlFor="email" className="block font-body text-sm text-ink/80 mb-1">
-                        {t('rsvp.emailLabel', 'Email Address')}
+                      <label htmlFor="phone" className="block font-body text-sm text-ink/80 mb-1">
+                        {t('rsvp.phoneLabel', 'Phone number')}
                       </label>
                       <input
-                        id="email"
-                        name="email"
-                        type="email"
-                        value={form.email}
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        inputMode="tel"
+                        autoComplete="tel"
+                        value={form.phone}
                         onChange={handleChange}
-                        placeholder={t('rsvp.emailPlaceholder', 'john@example.com')}
-                        aria-invalid={Boolean(errors.email)}
-                        aria-describedby={errors.email ? 'email-error' : undefined}
+                        placeholder={t('rsvp.phonePlaceholder', ' 09XXXXXXXX')}
+                        aria-invalid={Boolean(errors.phone)}
+                        aria-describedby={errors.phone ? 'phone-error' : undefined}
                         className="w-full rounded-md border border-gold/50 bg-white/80 px-3 py-2.5 font-body text-sm sm:text-base text-ink focus:border-gold focus:ring-1 focus:ring-gold outline-none transition-colors"
                       />
-                      {errors.email && <p id="email-error" className="mt-1 text-xs sm:text-sm text-burgundy">{errors.email}</p>}
+                      {errors.phone && <p id="phone-error" className="mt-1 text-xs sm:text-sm text-burgundy">{errors.phone}</p>}
                     </div>
 
                     <fieldset>

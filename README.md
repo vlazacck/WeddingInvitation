@@ -130,4 +130,4 @@ npm run build
 
 `npm test` runs Vitest + React Testing Library covering:
 - Language toggle defaults to English and switches to Amharic on click
-- RSVP form: required-field errors, invalid-email error, successful submission path
+- RSVP form: required-field errors, invalid-phone error, successful submission path

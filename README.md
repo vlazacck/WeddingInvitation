@@ -1,6 +1,6 @@
 # Bethelhem & Ermias — Digital Wedding Invitation
 
-A beautiful single-page, bilingual (English / Amharic) digital wedding invitation built with
+A beautiful single-page,  bilingual (English / Amharic) digital wedding invitation built with
 Vite + React + Tailwind CSS. Inspired by the format of scroll-driven wedding
 microsites (envelope reveal → hero → welcome/verse → countdown → schedule → location
 → RSVP → footer), with **original layout, code, and Christian-themed content and

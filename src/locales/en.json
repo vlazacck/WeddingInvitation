@@ -41,12 +41,26 @@
   "schedule": {
     "title": "Schedule of Events",
     "items": [
-      { "time": "4 PM", "label": "Guest Arrival" },
-      { "time": "5 PM", "label": "The Sermon" },
-      { "time": "6 PM", "label": "Wedding Ceremony"},
-      { "time": "7 PM", "label": "Cake Cutting"},
-      { "time": "8 PM", "label": "Worship" }
-
+      {
+        "time": "4 PM",
+        "label": "Guest Arrival"
+      },
+      {
+        "time": "5 PM",
+        "label": "The Sermon"
+      },
+      {
+        "time": "6 PM",
+        "label": "Wedding Ceremony"
+      },
+      {
+        "time": "7 PM",
+        "label": "Cake Cutting"
+      },
+      {
+        "time": "8 PM",
+        "label": "Worship"
+      }
     ]
   },
   "location": {
